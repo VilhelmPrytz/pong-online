@@ -6,6 +6,7 @@ import string
 import json
 import random
 
+
 def random_string(length=10):
     """Generate a random string of fixed length"""
 
