@@ -74,7 +74,12 @@ def board():
                     "status": True,
                     "http_code": 201,
                     "message": "request successful",
-                    "response": {"game": new_game},
+                    "response": {
+                        "game": {
+                            "your_key": new_game.p1_key,
+                            "invite_key": new_game.invite_key,
+                        }
+                    },
                 }
             ),
             201,

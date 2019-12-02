@@ -12,6 +12,8 @@ class Game:
         self.p1_key = random_string(length=50)
         self.p2_key = random_string(length=50)
 
+        self.invite_key = random_string(length=20)
+
         self.ball_x = 0
         self.ball_y = 0
 
