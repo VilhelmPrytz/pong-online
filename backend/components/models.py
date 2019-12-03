@@ -5,6 +5,9 @@
 from components.tools import random_string
 
 
+# 1 - waiting for opponent to join
+# 2 - in game
+
 class Game:
     def __init__(self):
         self.p1_pos = 0
@@ -17,4 +20,4 @@ class Game:
         self.ball_x = 0
         self.ball_y = 0
 
-        self.state = 0  # 0 means playing
+        self.state = 1
